@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB853CE92806C4C80049E998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB853CE82806C4C80049E998 /* Assets.xcassets */; };
+		BB853CEC2806C4C80049E998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB853CEA2806C4C80049E998 /* LaunchScreen.storyboard */; };
+		BB853CF72806C4EB0049E998 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB853CF32806C4EB0049E998 /* LoginViewController.swift */; };
+		BB853CF82806C4EB0049E998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB853CF42806C4EB0049E998 /* AppDelegate.swift */; };
+		BB853CF92806C4EB0049E998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB853CF52806C4EB0049E998 /* SceneDelegate.swift */; };
+		BB853CFA2806C4EB0049E998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB853CF62806C4EB0049E998 /* ViewController.swift */; };
+		BB853CFD2806C5780049E998 /* Swiftagram in Frameworks */ = {isa = PBXBuildFile; productRef = BB853CFC2806C5780049E998 /* Swiftagram */; };
+		BB853CFF2806C5780049E998 /* SwiftagramCrypto in Frameworks */ = {isa = PBXBuildFile; productRef = BB853CFE2806C5780049E998 /* SwiftagramCrypto */; };
+		BE5FCB324262E6918540C384 /* Pods_Tinygram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312D158C30DE279AF6B05853 /* Pods_Tinygram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312D158C30DE279AF6B05853 /* Pods_Tinygram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinygram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6FE952D864D874C2DEB0A4 /* Pods-Tinygram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinygram.debug.xcconfig"; path = "Target Support Files/Pods-Tinygram/Pods-Tinygram.debug.xcconfig"; sourceTree = "<group>"; };
+		59654358E9F39AB9413036A7 /* Pods-Tinygram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinygram.release.xcconfig"; path = "Target Support Files/Pods-Tinygram/Pods-Tinygram.release.xcconfig"; sourceTree = "<group>"; };
+		BB853CDC2806C4C80049E998 /* Tinygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB853CE82806C4C80049E998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB853CEB2806C4C80049E998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB853CED2806C4C80049E998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB853CF32806C4EB0049E998 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB853CF42806C4EB0049E998 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB853CF52806C4EB0049E998 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB853CF62806C4EB0049E998 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB853CD92806C4C80049E998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB853CFF2806C5780049E998 /* SwiftagramCrypto in Frameworks */,
+				BB853CFD2806C5780049E998 /* Swiftagram in Frameworks */,
+				BE5FCB324262E6918540C384 /* Pods_Tinygram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA7CE104809AC8B15F2C2EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A6FE952D864D874C2DEB0A4 /* Pods-Tinygram.debug.xcconfig */,
+				59654358E9F39AB9413036A7 /* Pods-Tinygram.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB853CD32806C4C70049E998 = {
+			isa = PBXGroup;
+			children = (
+				BB853CDE2806C4C80049E998 /* Tinygram */,
+				BB853CDD2806C4C80049E998 /* Products */,
+				7DA7CE104809AC8B15F2C2EC /* Pods */,
+				CF48698199CFBC1854314A14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB853CDD2806C4C80049E998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB853CDC2806C4C80049E998 /* Tinygram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB853CDE2806C4C80049E998 /* Tinygram */ = {
+			isa = PBXGroup;
+			children = (
+				BB853CF42806C4EB0049E998 /* AppDelegate.swift */,
+				BB853CF32806C4EB0049E998 /* LoginViewController.swift */,
+				BB853CF52806C4EB0049E998 /* SceneDelegate.swift */,
+				BB853CF62806C4EB0049E998 /* ViewController.swift */,
+				BB853CE82806C4C80049E998 /* Assets.xcassets */,
+				BB853CEA2806C4C80049E998 /* LaunchScreen.storyboard */,
+				BB853CED2806C4C80049E998 /* Info.plist */,
+			);
+			path = Tinygram;
+			sourceTree = "<group>";
+		};
+		CF48698199CFBC1854314A14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312D158C30DE279AF6B05853 /* Pods_Tinygram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB853CDB2806C4C80049E998 /* Tinygram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB853CF02806C4C80049E998 /* Build configuration list for PBXNativeTarget "Tinygram" */;
+			buildPhases = (
+				58B6F903BFF0347F7306BA4F /* [CP] Check Pods Manifest.lock */,
+				BB853CD82806C4C80049E998 /* Sources */,
+				BB853CD92806C4C80049E998 /* Frameworks */,
+				BB853CDA2806C4C80049E998 /* Resources */,
+				D69244AF6EF79F6E66489915 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinygram;
+			packageProductDependencies = (
+				BB853CFC2806C5780049E998 /* Swiftagram */,
+				BB853CFE2806C5780049E998 /* SwiftagramCrypto */,
+			);
+			productName = Tinygram;
+			productReference = BB853CDC2806C4C80049E998 /* Tinygram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB853CD42806C4C70049E998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BB853CDB2806C4C80049E998 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = BB853CD72806C4C80049E998 /* Build configuration list for PBXProject "Tinygram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB853CD32806C4C70049E998;
+			packageReferences = (
+				BB853CFB2806C5780049E998 /* XCRemoteSwiftPackageReference "Swiftagram.git" */,
+			);
+			productRefGroup = BB853CDD2806C4C80049E998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB853CDB2806C4C80049E998 /* Tinygram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB853CDA2806C4C80049E998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB853CEC2806C4C80049E998 /* LaunchScreen.storyboard in Resources */,
+				BB853CE92806C4C80049E998 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B6F903BFF0347F7306BA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinygram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69244AF6EF79F6E66489915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinygram/Pods-Tinygram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinygram/Pods-Tinygram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinygram/Pods-Tinygram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB853CD82806C4C80049E998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB853CF82806C4EB0049E998 /* AppDelegate.swift in Sources */,
+				BB853CF72806C4EB0049E998 /* LoginViewController.swift in Sources */,
+				BB853CFA2806C4EB0049E998 /* ViewController.swift in Sources */,
+				BB853CF92806C4EB0049E998 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB853CEA2806C4C80049E998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB853CEB2806C4C80049E998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB853CEE2806C4C80049E998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB853CEF2806C4C80049E998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB853CF12806C4C80049E998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6FE952D864D874C2DEB0A4 /* Pods-Tinygram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 967Q89UR83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tinygram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbertix.Followers.Tinygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB853CF22806C4C80049E998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59654358E9F39AB9413036A7 /* Pods-Tinygram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 967Q89UR83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tinygram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbertix.Followers.Tinygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB853CD72806C4C80049E998 /* Build configuration list for PBXProject "Tinygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB853CEE2806C4C80049E998 /* Debug */,
+				BB853CEF2806C4C80049E998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB853CF02806C4C80049E998 /* Build configuration list for PBXNativeTarget "Tinygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB853CF12806C4C80049E998 /* Debug */,
+				BB853CF22806C4C80049E998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB853CFB2806C5780049E998 /* XCRemoteSwiftPackageReference "Swiftagram.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sbertix/Swiftagram.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB853CFC2806C5780049E998 /* Swiftagram */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB853CFB2806C5780049E998 /* XCRemoteSwiftPackageReference "Swiftagram.git" */;
+			productName = Swiftagram;
+		};
+		BB853CFE2806C5780049E998 /* SwiftagramCrypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB853CFB2806C5780049E998 /* XCRemoteSwiftPackageReference "Swiftagram.git" */;
+			productName = SwiftagramCrypto;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB853CD42806C4C70049E998 /* Project object */;
+}

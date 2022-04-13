@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.5.0)
+  - netfox (1.21.0)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - netfox
+  - RxAlamofire
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - netfox
+    - RxAlamofire
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: f9a77a666adb0408c8ed09148a14821baa349206
+
+COCOAPODS: 1.11.3
